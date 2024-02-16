@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 16px;
+  width: 100%;
+  min-height: 83px;
+  border: none;
+  background: none;
+}
+
+nav {
+  display: flex;
+  max-width: 535px;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.header_nav {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.nav-menu {
+  display: none;
+  flex-direction: column;
+  row-gap: 5px;
+  border: none;
+}
+
+.menu {
+  width: 30px;
+  height: 2px;
+  background: black;
+}
+
+.img_girl {
+  display: flex;
+  align-items: end;
+  height: 800px;
+  width: 100%;
+  border: none;
+  background: url("./img/IMAGE.png") center center/cover no-repeat;
+}
+
+.img_girl-text {
+  margin-left: 46px;
+  margin-bottom: 65px;
+  color: #aee8fb;
+  font-size: 126px;
+}
+
+.just_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-height: 594px;
+  border: none;
+  padding-top: 123px;
+  padding-bottom: 207px;
+}
+
+.justtext {
+  font-size: 44px;
+}
+
+.just_text_btn {
+  font-size: 14px;
+  padding: 7px 11px 7px 11px;
+  border: 1.5px solid #000000;
+  background: none;
+  border-radius: 10px;
+  max-width: 150px;
+  margin-top: 42px;
+}
+
+.weprovid_box {
+  width: 100%;
+  max-height: 392px;
+  background-color: #f3e9e2;
+  padding-top: 57px;
+  padding-left: 60px;
+  padding-bottom: 71px;
+}
+
+.weprovid_text {
+  color: #000000;
+  font-size: 80px;
+}
+
+.caption_ourprograms {
+  width: 100%;
+  max-height: 1968px;
+  border: none;
+  padding-top: 120px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.ourprograms {
+  color: #000000;
+  font-size: 16px;
+}
+
+.cardsbox {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  width: 360px;
+  height: 626px;
+  border: none;
+  background-color: #aee8fb;
+  border-radius: 10px;
+
+  padding-top: 26px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+/* .first {
+  display: flex;
+} */
+
+.cards_title {
+  font-size: 16px;
+  color: #000000;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cards_text {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  margin-top: 19px;
+}
+
+.card_btn {
+  font-size: 14px;
+  padding: 9px 11px 9px 11px;
+  border: 1.5px solid #000000;
+  background: none;
+  border-radius: 10px;
+  max-width: 153px;
+  margin-top: 43px;
+  margin-left: 85px;
+}
+
+.second {
+  background-color: #f3e9e2;
+}
+
+.card_btn_three {
+  font-size: 14px;
+  padding: 9px 11px 9px 11px;
+  border: 1.5px solid #000000;
+  background: none;
+  border-radius: 10px;
+  max-width: 153px;
+  margin-top: 63px;
+  margin-left: 85px;
+}
+
+.paycheck {
+  width: 100%;
+  max-height: 570px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.paycheck_first {
+  max-width: 570px;
+  max-height: 570px;
+}
+
+.paycheck_second {
+  max-width: 570px;
+  max-height: 570px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f3e9e2;
+  padding-top: 155px;
+  padding-left: 88px;
+  padding-right: 111px;
+  padding-bottom: 151px;
+}
+
+.paycheck_text {
+  font-size: 44px;
+  color: #000000;
+}
+
+.the_nomberssay {
+  margin-top: 120px;
+  margin-bottom: 74px;
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+}
+
+.boxnumbers {
+  width: 100%;
+  max-height: 266px;
+  border: none;
+  display: flex;
+  padding-bottom: 120px;
+}
+
+.box_number_first {
+  width: 385px;
+  height: 146px;
+  border: none;
+}
+
+.threehundredplus {
+  margin-top: 15px;
+  font-size: 61px;
+  color: #000000;
+  text-align: center;
+}
+
+.clientserved {
+  margin-top: 33px;
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+}
+
+.box_number_second {
+  width: 385px;
+  height: 146px;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1.5px solid black;
+  border-right: 1.5px solid black;
+}
+
+.seventy_kplus {
+  margin-top: 15px;
+  font-size: 61px;
+  color: #000000;
+  text-align: center;
+}
+
+.women_trained {
+  margin-top: 33px;
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+}
+
+.box_number_third {
+  width: 385px;
+  height: 146px;
+  border: none;
+}
+
+.two_milplus {
+  margin-top: 15px;
+  font-size: 61px;
+  color: #000000;
+  text-align: center;
+}
+
+.in_salary {
+  margin-top: 33px;
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+}
+
+.we_provid {
+  width: 100%;
+  max-height: 258px;
+  background-color: #f3e9e2;
+}
+
+.your_purpose {
+  font-size: 75px;
+  color: #000000;
+  text-align: center;
+  padding-top: 57px;
+  padding-bottom: 57px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
